@@ -17,3 +17,7 @@
 #Create a savings account has all the functions af a bank account #plus an interest rate
 
 #print one account with the interest
+
+
+
+print('Assignment completed')
