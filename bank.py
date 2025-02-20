@@ -6,7 +6,7 @@ class BankAccount:
 
 #deposit money to the account
     def deposit(self):
-        deposit = int(input("how many you want to add"))
+        deposit = int(input("how many you want to add: "))
         self.balance +=deposit
         print(f"Added {deposit} to the balance")
         print("available balance: ",self.balance)
@@ -55,4 +55,4 @@ class Saving(BankAccount):
 
 #print one account with the interest
 savings_account = Saving("aysha",55)
-print(savings_account.saving_money())
+print(f"your saving is: {savings_account.saving_money()}")
